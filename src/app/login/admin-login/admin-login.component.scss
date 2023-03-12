@@ -1,0 +1,77 @@
+.row {
+    height: 100vh;
+    margin: 0;
+
+    .login_form {
+        background-color: white;
+
+        .login_content {
+            text-align: center;
+            margin: 120px 50px 0 50px;
+
+            #admin_logo {
+                height: 100px;
+                width: 100px;
+            }
+
+            #admin_title {
+                margin-top: 15px;
+                margin-bottom: 45px;
+            }
+
+            #sign_in_button {
+                margin-top: 20px;
+
+                #button {
+                    font-weight: bold;
+                }
+
+                #button:hover {
+                    background-color: whitesmoke;
+                }
+            }
+
+            .label {
+                display: flex;
+                font-weight: bold;
+            }
+
+            .form-control {
+                box-shadow: none;
+            }
+        }
+
+    }
+
+    .logo_form {
+
+        text-align: center;
+        background-color: skyblue;
+
+        .logo_content {
+            margin-top: 50px;
+
+            #logo {
+                height: 150px;
+                width: 150px;
+                margin: 20px;
+            }
+
+            #image {
+                height: 250px;
+                width: 89%;
+                margin: 20px 0px 20px 0px;
+            }
+
+            #logo_title {
+                color: black;
+                text-align: center;
+                font-size: 25px;
+                margin-top: 10px;
+                font-weight: bold;
+                font-family: 'Courier New', Courier, monospace;
+            }
+        }
+
+    }
+}
