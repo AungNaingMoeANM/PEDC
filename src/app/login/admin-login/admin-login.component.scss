@@ -1,77 +1,65 @@
-.row {
-    height: 100vh;
-    margin: 0;
+.container {
+    width: 50%;
+    text-align: center;
 
-    .login_form {
-        background-color: white;
 
-        .login_content {
-            text-align: center;
-            margin: 120px 50px 0 50px;
-
-            #admin_logo {
-                height: 100px;
-                width: 100px;
-            }
-
-            #admin_title {
-                margin-top: 15px;
-                margin-bottom: 45px;
-            }
-
-            #sign_in_button {
-                margin-top: 20px;
-
-                #button {
-                    font-weight: bold;
-                }
-
-                #button:hover {
-                    background-color: whitesmoke;
-                }
-            }
-
-            .label {
-                display: flex;
-                font-weight: bold;
-            }
-
-            .form-control {
-                box-shadow: none;
-            }
-        }
-
-    }
-
-    .logo_form {
-
+    .card {
         text-align: center;
-        background-color: skyblue;
+        margin-top: 110px;
+        padding: 50px;
+        border: 1px solid green;
+        border-radius: 20px;
+        box-shadow: 3px 3px 10px 2px #007380;
 
-        .logo_content {
-            margin-top: 50px;
+        #logo {
+            height: 100px;
+            width: 100px;
+        }
 
-            #logo {
-                height: 150px;
-                width: 150px;
-                margin: 20px;
-            }
+        #title {
+            margin-top: 15px;
+            margin-bottom: 45px;
+            font-style: italic;
+            color: green;
+        }
 
-            #image {
-                height: 250px;
-                width: 89%;
-                margin: 20px 0px 20px 0px;
-            }
+        #sign_in_button {
+            margin-top: 20px;
 
-            #logo_title {
-                color: black;
-                text-align: center;
-                font-size: 25px;
-                margin-top: 10px;
+            #button {
                 font-weight: bold;
-                font-family: 'Courier New', Courier, monospace;
+            }
+
+            #button:hover {
+                background-color: whitesmoke;
             }
         }
 
+        .label {
+            font-weight: bold;
+            margin-top: 5px;
+            display: flex;
+        }
+
+        .form-control {
+            border: 1px solid green;
+            margin-top: 5px;
+            box-shadow: none;
+        }
+
+        #forgot_password {
+            margin-top: 20px;
+
+            #a {
+                text-decoration: none;
+                cursor: pointer;
+            }
+        }
+
+        #sing_up {
+            margin-top: 20px;
+        }
     }
+
+
 }

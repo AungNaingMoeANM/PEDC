@@ -2,35 +2,37 @@
 <html>
 
 <body>
-    <div class="row">
-        <div class="col-5 login_form">
-            <!-- Sing In Column -->
-            <div class="login_content">
-                <img id="admin_logo" src="assets/images/pedc_logo.jpg" alt="Admin">
-                <h4 id="admin_title">Admin</h4>
-                <div>
-                    <label class="label" for="user_name">User Name :</label>
-                    <input id="user_name" class="form-control" type="text">
-                </div>
-
-                <div><label class="label" for="password">Password :</label>
-                    <input id="password" class="form-control" type="password">
-                </div>
-                <div id="sign_in_button">
-                    <button class="form-control" id="button" type="button">Sign In</button>
-                </div>
+    <div class="container">
+        <!-- Sing In -->
+        <div class="card">
+            <!--Logo-->
+            <div>
+                <img id="logo" src="assets/images/pedc_logo.jpg" alt="PEDTC">
             </div>
-        </div>
-        <!-- Logo Column -->
-        <div class="col-7 logo_form">
-            <div class="logo_content">
-                <img id="logo" src="assets/images/img.jpg" alt="Logo">
-                <p id="logo_title">Peace And Society Education Dhamma Training Center</p>
-                <div>
-                    <img id="image" src="assets/images/education.jpg" alt="Image">
-                </div>
+            <!--Title-->
+            <h4 id="title">P.E.D.T.C</h4>
+            <!--User ID Input Field-->
+            <div>
+                <label class="label" for="user_name">User Id :</label>
+                <input id="user_name" placeholder="Email or Phone" class="form-control" autofocus type="text">
             </div>
-
+            <!--User Password Field-->
+            <div><label class="label" for="password">Password :</label>
+                <input id="password" maxlength="8" placeholder="Enter your password" class="form-control"
+                    type="password">
+            </div>
+            <!--Sign In Button-->
+            <div id="sign_in_button">
+                <button class="form-control" id="button" type="button" (click)="'signIn()'">Sign In</button>
+            </div>
+            <!--Forgot Password -->
+            <div id="forgot_password">
+                <a href="#" id="a">Forgot Password</a>
+            </div>
+            <!--To be Sing Up-->
+            <div id="sing_up">
+                <span>Don't have an account?</span> <a href="#"> Sing Up</a>
+            </div>
         </div>
     </div>
 </body>
